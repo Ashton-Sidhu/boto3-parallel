@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "paras3"
+version = "0.1.0"
+description = ""
+authors = ["Ashton Sidhu <ashton.sidhu1994@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.20.38"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
